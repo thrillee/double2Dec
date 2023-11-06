@@ -24,7 +24,7 @@ This Go program provides a simple way to generate SQL queries for converting dou
 4. **Run the Program**: Run the program with the required options.
 
    ```bash
-   ./sql-double-to-decimal -t [TABLE] -c [COLUMN1 COLUMN2 ...] -d [DECIMAL PROPERTY] -nn
+   ./double2Dec -t [TABLE] -c [COLUMN1 COLUMN2 ...] -d [DECIMAL PROPERTY] -nn
    ```
 
    - `-t`, `--table`: Name of the table containing the columns you want to convert.
